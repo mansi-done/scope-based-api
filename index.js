@@ -33,5 +33,4 @@ app.use("/school", authRoute);
 app.use("/user", userauthRoute);
 app.use("/role", roleauthRoute);
 app.use("/student", studentauthRoute);
-
 app.listen(port, () => console.log("Server listening on port 3000"));
